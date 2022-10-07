@@ -115,13 +115,13 @@ print(sum[x],'USD', sum[x]*3333,'MNT')
 
 Salary/Points
 
-# 6 Тоглогч бүр 1 оноог хэдэн минутанд авч байна вэ?
+# 6 Goals per minute
 MinutesPlayed/Points
 
-# 7 Тоглогч бүр нийт тоглолтын хэдэн хувьд тоглож байна вэ?
+# 7 Minutes player per game
 MinutesPlayed/160
 
-# 8 Нийт тоглогчдын амжиллтай хийсэн онооны статистик
+# 8 2 or 3 point shooter
 if (Points/FieldGoals).all() >=2.5:
     print('3 oноо ихэнхдээ авсан байна')
 else:
